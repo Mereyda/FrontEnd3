@@ -1,0 +1,15 @@
+.lista {
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  
+
+}
+
+:global(.compact-theme) .list {
+    gap: 8px;
+  }
+
+
+
